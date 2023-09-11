@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #64a18c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.TodoWrapper {
+  background: #257752;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.LoginWrapper{
+  background: #257752;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.login-input{
+  outline: none;
+  background: none;
+  border: 1px solid #1b5332;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.5s;
+  border-radius: 5px;
+}
+
+.login-input:hover{
+  width: 350px;
+}
+
+.login-btn{
+  color:#b7b3b3;
+  text-decoration: none;
+}
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #1b5332;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.login-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #1b5332;
+  color: #b7b3b3;
+  border: none;
+  padding: 0.567rem;
+  cursor: pointer;
+  
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #64a18c;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #b7b3b3;
+  text-decoration: line-through;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
